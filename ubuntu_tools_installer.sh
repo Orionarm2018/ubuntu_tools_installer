@@ -19,16 +19,16 @@ else
 fi
 
 # Install git
-sudo apt install git
+sudo apt install -y git
 
 # Install yarn
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt update
-sudo apt install yarn
+sudo apt install -y yarn
 
 # Install sz/rz
-sudo apt install lrzsz
+sudo apt install -y lrzsz
 
 # Install node
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
