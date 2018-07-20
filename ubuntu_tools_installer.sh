@@ -32,7 +32,10 @@ sudo apt install -y lrzsz
 
 # Install node
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-apt-get install -y nodejs
+sudo apt-get install -y nodejs
+
+# Install jq for json
+sudo apt-get install -y jq
 
 # Install go 10
 # mkdir -p $HOME/mygo/bin
