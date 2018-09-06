@@ -37,6 +37,9 @@ sudo apt-get install -y nodejs
 # Install jq for json
 sudo apt-get install -y jq
 
+# Install Mail
+sudo apt install mailutils
+
 # Install go 10
 # mkdir -p $HOME/mygo/bin
 # echo "export GOPATH=$HOME/mygo" >> ~/.bash_profile
