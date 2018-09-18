@@ -40,6 +40,9 @@ sudo apt-get install -y jq
 # Install Mail
 sudo apt install mailutils
 
+# python-pip
+sudo apt install python-pip 
+
 # Install go 10
 # mkdir -p $HOME/mygo/bin
 # echo "export GOPATH=$HOME/mygo" >> ~/.bash_profile
