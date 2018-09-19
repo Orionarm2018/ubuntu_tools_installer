@@ -50,3 +50,6 @@ sudo apt install python-pip
 # echo "export PATH=$PATH:$GOBIN" >> ~/.bash_profile
 # sources ~/.bash_profile
 
+# http://blog.spadeq.com/2017/08/11/zerofree-unused-spaces-in-ubuntu/
+sudo apt install open-vm-tools zerofree
+
