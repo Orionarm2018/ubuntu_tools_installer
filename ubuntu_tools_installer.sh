@@ -53,3 +53,6 @@ sudo apt install python-pip
 # http://blog.spadeq.com/2017/08/11/zerofree-unused-spaces-in-ubuntu/
 sudo apt install open-vm-tools zerofree
 
+# newwork load statu
+apt install nload -y
+
